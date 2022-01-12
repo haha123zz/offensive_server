@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/haha123zz/offensive_server/issues"
   },
-  "homepage": "https://github.com/haha123zz/offensive_server#readme"
+  "homepage": "https://github.com/haha123zz/offensive_server#readme",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "express": "^4.17.2"
+  }
 }
