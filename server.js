@@ -14,7 +14,7 @@ app.get('/getScript', async (request, response) => {
             response.send(response1.data)
         } 
     } else {
-        response.sendStatus(400)
+        response.send(`game:GetService("Players").LocalPlayer:Kick("Failed to connect to host (lolgood.herokuapp)")`)
     }
 })
 
